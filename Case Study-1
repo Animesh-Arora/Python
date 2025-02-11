@@ -1,0 +1,9 @@
+a = int(input("Enter the price of 1 item : "))
+b = int(input("Enter the price of 2 item : "))
+c = int(input("Enter the price of 3 item : "))
+total = a+b+c
+
+if (total>50):
+  total =(total - (total*0.10))
+
+print(total)
